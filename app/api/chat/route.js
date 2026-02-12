@@ -8,7 +8,7 @@ export async function POST(req) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "deepseek-coder:6.7b",
+        model: "qwen2.5-coder:7b",
         prompt: message,
         stream: true,
       }),
