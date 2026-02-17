@@ -8,7 +8,7 @@ export async function POST(req) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "qwen2.5-coder:7b",
+        model: "qwen2.5-coder:14b-q4_K_M",
         prompt: message,
         stream: true,
       }),
